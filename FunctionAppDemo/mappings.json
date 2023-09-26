@@ -1,0 +1,11 @@
+{
+    "cell_mappings":
+    {
+        "Report_date":"B4",
+        "Factory":"D4"
+    },
+    "dataframe_mappings":
+    {   
+        "SkipRows":7
+    }
+}

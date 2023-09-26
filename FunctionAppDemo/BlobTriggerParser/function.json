@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "fa-test-container/staging-blobtrigger/{name}",
+      "connection": "blobConnection"
+    },
+    {
+      "type": "blob",
+      "direction": "out",
+      "name": "outputBlob",
+      "path": "fa-test-container/extracted-blobtrigger/{name}_{DateTime}",
+      "connection": "blobConnection"
+    }
+  ]
+}
